@@ -1,0 +1,6 @@
+chcp 65001
+psql -U postgres //Login เข้า postgres
+CREATE DATABASE "image-processing-in-forensic" WITH OWNER "postgres" ENCODING 'UTF8';
+\c <ชื่อฐานข้อมูล> //เชื่อมต่อเข้าไปในฐานข้อมูลที่ต้องการ
+SHOW server_encoding;
+SET client_encoding TO 'UTF8';
