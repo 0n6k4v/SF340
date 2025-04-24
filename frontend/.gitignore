@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# 🔥 Model files
+*.pt
+*.h5
+*.onnx
+*.tflite
+*.pkl
+*.joblib
